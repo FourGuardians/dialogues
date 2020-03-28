@@ -1,0 +1,32 @@
+<?xml version = "1.0"?>
+<?dialogue-tree version="1.0"?>
+
+<document>
+  <DialogueTree name="action sets" entity="test">
+    <ActionSet name="je">
+      <OptionsAction>
+        <Option name="d">
+          <ToActionSetAction>
+            <ActionSetReference ref:actions="j2" />
+          </ToActionSetAction>
+        </Option>
+      </OptionsAction>
+    </ActionSet>
+    <ActionSet name="j2">
+      <ToEntryAction />
+    </ActionSet>
+    <EntryDialogue>
+      <Text text="action sets" />
+      <OptionsAction>
+        <Option name="a">
+          <ToActionSetAction>
+            <ActionSetReference ref:actions="je" />
+          </ToActionSetAction>
+        </Option>
+        <Option name="exit">
+          <ExitAction />
+        </Option>
+      </OptionsAction>
+    </EntryDialogue>
+  </DialogueTree>
+</document>

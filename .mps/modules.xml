@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/solutions/fg.dialogues.tests/fg.dialogues.tests.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/fg.dialogues/fg.dialogues.msd" folder="" />
+    </projectModules>
+  </component>
+</project>

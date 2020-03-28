@@ -1,0 +1,49 @@
+<?xml version = "1.0"?>
+<?dialogue-tree version="1.0"?>
+
+<document>
+  <DialogueTree name="options" entity="test">
+    <Dialogue name="whooooooooo">
+      <Text />
+      <Text text="fff" />
+      <ExitAction />
+    </Dialogue>
+    <Dialogue name="log boop dialogggg">
+      <Text text="you have entered a lig boop!" />
+      <ToEntryAction />
+    </Dialogue>
+    <EntryDialogue>
+      <Text text="hi" />
+      <OptionsAction>
+        <Option name="stop right there">
+          <ExitAction />
+        </Option>
+        <Option name="next please">
+          <ToDialogueAction>
+            <DialogueReference ref:dialogue="whooooooooo" />
+          </ToDialogueAction>
+        </Option>
+        <Option name="repeat">
+          <ToEntryAction />
+        </Option>
+        <Option name="lig boop">
+          <ToDialogueAction>
+            <DialogueReference ref:dialogue="log boop dialogggg" />
+          </ToDialogueAction>
+        </Option>
+        <Option name="nest">
+          <OptionsAction>
+            <Option name="stop :(">
+              <ExitAction />
+            </Option>
+            <Option name="whoop">
+              <ToDialogueAction>
+                <DialogueReference ref:dialogue="whooooooooo" />
+              </ToDialogueAction>
+            </Option>
+          </OptionsAction>
+        </Option>
+      </OptionsAction>
+    </EntryDialogue>
+  </DialogueTree>
+</document>
