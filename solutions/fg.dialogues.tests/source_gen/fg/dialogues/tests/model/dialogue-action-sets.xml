@@ -2,7 +2,7 @@
 <?dialogue-tree version="1.0"?>
 
 <document>
-  <DialogueTree name="action sets" entity="test">
+  <DialogueTree name="action sets">
     <ActionSet name="je">
       <OptionsAction>
         <Option name="d">
@@ -15,8 +15,11 @@
     <ActionSet name="j2">
       <ToEntryAction />
     </ActionSet>
+    <Participant name="p" />
     <EntryDialogue>
-      <Text text="action sets" />
+      <Text text="action sets">
+        <ParticipantReference ref:participant="p" />
+      </Text>
       <OptionsAction>
         <Option name="a">
           <ToActionSetAction>

@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debug-info version="2">
-  <root nodeRef="r:2023a2bb-9335-437f-bec9-2faa41b8b8cd(fg.dialogues.tests.model)/4507526039257231813">
-    <file name="dialogue-hello-world-for-tests.xml">
-      <unit id="4507526039257231813" at="1,0,11,11" name="fg.dialogues.tests.model.dialogue-hello-world-for-tests" />
-    </file>
-  </root>
-  <root nodeRef="r:2023a2bb-9335-437f-bec9-2faa41b8b8cd(fg.dialogues.tests.model)/4507526039257231873">
-    <file name="dialogue-property-access-for-test.xml">
-      <unit id="4507526039257231873" at="1,0,31,11" name="fg.dialogues.tests.model.dialogue-property-access-for-test" />
-    </file>
-  </root>
   <root nodeRef="r:2023a2bb-9335-437f-bec9-2faa41b8b8cd(fg.dialogues.tests.model)/4507526039257231926">
-    <file name="dialogue-dialogue-switching-for-test.xml">
-      <unit id="4507526039257231926" at="1,0,18,11" name="fg.dialogues.tests.model.dialogue-dialogue-switching-for-test" />
+    <file name="dialogue-dialogue-switching.xml">
+      <unit id="4507526039257231926" at="1,0,25,11" name="fg.dialogues.tests.model.dialogue-dialogue-switching" />
     </file>
   </root>
-  <root nodeRef="r:2023a2bb-9335-437f-bec9-2faa41b8b8cd(fg.dialogues.tests.model)/4507526039257231942">
-    <file name="dialogue-options-for-test.xml">
-      <unit id="4507526039257231942" at="1,0,49,11" name="fg.dialogues.tests.model.dialogue-options-for-test" />
+  <root nodeRef="r:2023a2bb-9335-437f-bec9-2faa41b8b8cd(fg.dialogues.tests.model)/7017253429466805762">
+    <file name="dialogue-hello-world.xml">
+      <unit id="7017253429466805762" at="1,0,14,11" name="fg.dialogues.tests.model.dialogue-hello-world" />
     </file>
   </root>
-  <root nodeRef="r:2023a2bb-9335-437f-bec9-2faa41b8b8cd(fg.dialogues.tests.model)/4507526039257232016">
-    <file name="dialogue-action-sets-for-test.xml">
-      <unit id="4507526039257232016" at="1,0,32,11" name="fg.dialogues.tests.model.dialogue-action-sets-for-test" />
+  <root nodeRef="r:2023a2bb-9335-437f-bec9-2faa41b8b8cd(fg.dialogues.tests.model)/7017253429466805772">
+    <file name="dialogue-property-access.xml">
+      <unit id="7017253429466805772" at="1,0,36,11" name="fg.dialogues.tests.model.dialogue-property-access" />
+    </file>
+  </root>
+  <root nodeRef="r:2023a2bb-9335-437f-bec9-2faa41b8b8cd(fg.dialogues.tests.model)/9110606515780080782">
+    <file name="dialogue-options.xml">
+      <unit id="9110606515780080782" at="1,0,58,11" name="fg.dialogues.tests.model.dialogue-options" />
+    </file>
+  </root>
+  <root nodeRef="r:2023a2bb-9335-437f-bec9-2faa41b8b8cd(fg.dialogues.tests.model)/9110606515780080845">
+    <file name="dialogue-action-sets.xml">
+      <unit id="9110606515780080845" at="1,0,35,11" name="fg.dialogues.tests.model.dialogue-action-sets" />
     </file>
   </root>
 </debug-info>

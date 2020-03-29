@@ -2,18 +2,27 @@
 <?dialogue-tree version="1.0"?>
 
 <document>
-  <DialogueTree name="options" entity="test">
+  <DialogueTree name="options">
     <Dialogue name="whooooooooo">
-      <Text />
-      <Text text="fff" />
+      <Text>
+        <ParticipantReference ref:participant="p" />
+      </Text>
+      <Text text="fff">
+        <ParticipantReference ref:participant="p" />
+      </Text>
       <ExitAction />
     </Dialogue>
     <Dialogue name="log boop dialogggg">
-      <Text text="you have entered a lig boop!" />
+      <Text text="you have entered a lig boop!">
+        <ParticipantReference ref:participant="p" />
+      </Text>
       <ToEntryAction />
     </Dialogue>
+    <Participant name="p" />
     <EntryDialogue>
-      <Text text="hi" />
+      <Text text="hi">
+        <ParticipantReference ref:participant="p" />
+      </Text>
       <OptionsAction>
         <Option name="stop right there">
           <ExitAction />

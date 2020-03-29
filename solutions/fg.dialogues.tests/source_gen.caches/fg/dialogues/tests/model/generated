@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="-8x6nelfxi37t1k2x7hmxzcv8snytmei">
-  <files names="dialogue-action-sets-for-test.xml:dialogue-dialogue-switching-for-test.xml:dialogue-hello-world-for-tests.xml:dialogue-options-for-test.xml:dialogue-property-access-for-test.xml" />
+<product version="3" modelHash="-98zo7m3fxcq48s29g4clmlrun6pb4bj">
+  <files names="dialogue-action-sets.xml:dialogue-dialogue-switching.xml:dialogue-hello-world.xml:dialogue-options.xml:dialogue-property-access.xml" />
 </product>
 
